@@ -34,7 +34,7 @@
             type="search"
             name="search-box"
             id="search-box"
-            placeholder="Search e.g. card"
+            placeholder="Search e.g. John Smith"
           />
         </div>
       </div>
@@ -43,25 +43,35 @@
     <nav class="side-nav">
       <ul>
         <div class="rectangle-1">
-          <li class="active" id="overview"><a href="#">Overview</a></li>
+          <li class="active" id="overview">
+            <i class="fa-sharp fa-solid fa-eye"></i><a href="#"> Overview</a>
+          </li>
         </div>
-        <li><a href="#">Trade</a></li>
-        <li><a href="#">Wallet</a></li>
-        <li><a href="#">Transactions</a></li>
-        <li><a href="#">Statistics</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><i class="fa-regular fa-message"></i><a href="#"> Messages</a></li>
+        <li><i class="fa-solid fa-list-check"></i><a href="#"> Tasks</a></li>
+        <li>
+          <i class="fa-solid fa-calendar-days"></i><a href="#"> Calendar</a>
+        </li>
+        <li><i class="fa-regular fa-handshake"></i><a href="#"> Clients</a></li>
+        <li><i class="fa-solid fa-sliders"></i><a href="#"> Settings</a></li>
+        <br />
+        <br />
+        <li>
+          <i class="fa-solid fa-arrow-right-from-bracket"></i
+          ><a href="#"> Logout</a>
+        </li>
       </ul>
     </nav>
 
     <div class="container-flex">
-      <h1>List of Employees</h1>
+      <h1>User Management Overview</h1>
       <div class="app">
         <div class="table-responsive-md">
           <table
             class="table table-striped table-borderless table-bg-transparent table-hover text-white"
           >
             <caption>
-              Active employees
+              List of users
             </caption>
             <thead>
               <tr>

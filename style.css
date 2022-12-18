@@ -16,7 +16,7 @@ nav {
   max-width: 290px;
   height: 800px;
   left: 0;
-  top: 85.5px;
+  top: 83.3px;
   border-right: 2px solid #fff;
 }
 
@@ -35,15 +35,15 @@ input {
   padding: 0 40px;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 input::placeholder {
   height: 24px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.4);
 }
 
-i {
+.fa-magnifying-glass {
   position: fixed;
   left: 43.9%;
   top: 4.5%;
@@ -91,8 +91,8 @@ i {
 
 .company-name {
   position: fixed;
-  top: 10px;
-  left: 34.82px;
+  top: 25px;
+  left: 30px;
 }
 
 a {
