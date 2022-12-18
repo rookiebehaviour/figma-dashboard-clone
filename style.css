@@ -11,7 +11,7 @@ body {
   color: #fff;
 }
 
-nav {
+.side-navbar {
   position: fixed;
   max-width: 290px;
   height: 800px;
@@ -25,7 +25,7 @@ ul {
   padding: 0;
 }
 
-nav li {
+.side-navbar li {
   list-style: none;
   margin: 0 0px 40px 25px;
   line-height: 50px;
@@ -67,7 +67,7 @@ input::placeholder {
   z-index: -1;
 }
 
-#top {
+.top-navbar {
   position: fixed;
   border-bottom: 2px solid #fff;
   width: 100%;
