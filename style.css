@@ -8,11 +8,53 @@ body {
 
 nav {
   position: fixed;
+  max-width: 290px;
+  height: auto;
+  left: 0;
+  top: 120px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 40px;
+}
+
+input {
+  padding: 0 40px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+input::placeholder {
+  position: fixed;
+  height: 16px;
+  left: 12.47%;
+  right: 61.07%;
+  top: 10px;
+  color: #fff;
+}
+
+i {
+  position: fixed;
+  left: 47.9%;
+  top: 4.5%;
+  color: #fff;
+  z-index: 1;
+}
+
+#top {
+  position: fixed;
   border-bottom: 2px solid #fff;
   width: 100%;
   height: 83px;
   left: 0;
   top: 0;
+  margin-bottom: 10px;
 }
 
 #search-box {
@@ -28,25 +70,13 @@ nav {
   background: #1e0338;
 }
 
-input::placeholder {
+.company-name {
   position: fixed;
-  height: 16px;
-  left: 12.47%;
-  right: 61.07%;
   top: 10px;
-  color: #fff;
+  left: 34.82px;
 }
 
-input {
-  padding: 0 40px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 1);
-}
-
-i {
-  position: fixed;
-  left: 47.9%;
-  top: 4.5%;
+a {
+  text-decoration: none;
   color: #fff;
-  z-index: 1;
 }
